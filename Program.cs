@@ -16,14 +16,18 @@ namespace ConsoleApp_Basic
             //    Console.WriteLine(item);
             //}
 
-            for (int i = 0; i < 5; i++)
-            {
-                Console.Write(i+"\t");
-                if (i==3)
-                {
-                    break;
-                }
-            }
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.Write(i+"\t");
+            //    if (i==3)
+            //    {
+            //        break;
+            //    }
+            //}
         }
+    }
+    public class MyProgram
+    {
+        public int num;
     }
 }
