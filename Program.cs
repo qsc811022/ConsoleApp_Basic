@@ -10,10 +10,19 @@ namespace ConsoleApp_Basic
     {
         static void Main(string[] args)
         {
-            string[] nameList = {"張三","李四","王五"};
-            foreach (var item in nameList)
+            //string[] nameList = {"張三","李四","王五"};
+            //foreach (var item in nameList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine(item);
+                Console.Write(i+"\t");
+                if (i==3)
+                {
+                    break;
+                }
             }
         }
     }
