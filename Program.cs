@@ -26,25 +26,40 @@ namespace ConsoleApp_Basic
             //}
         }
     }
-
-    class data
+    //1203
+    //宣告一個介面IMove
+    public interface IMove
     {
-        private int month=0;
-        public int Month
+        void Move();
+    }
+    public class Car : IMove
+    {
+        public void Move()
         {
-            get
-            {
-                return month;
-            }
-            set
-            {
-                if ((value>0) &&(value<13))
-                {
-                    month=value;
-                }
-            }
+            Console.WriteLine("車子移動10公分");
         }
     }
+
+
+
+    //class data
+    //{
+    //    private int month=0;
+    //    public int Month
+    //    {
+    //        get
+    //        {
+    //            return month;
+    //        }
+    //        set
+    //        {
+    //            if ((value>0) &&(value<13))
+    //            {
+    //                month=value;
+    //            }
+    //        }
+    //    }
+    //}
     //public class MyProgram
     //{
     //    public int num;
