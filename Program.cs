@@ -24,6 +24,8 @@ namespace ConsoleApp_Basic
             //        break;
             //    }
             //}
+            Car car = new Car();
+            car.Move();
         }
     }
     //1203
