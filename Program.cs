@@ -10,6 +10,9 @@ namespace ConsoleApp_Basic
     {
         static void Main(string[] args)
         {
+
+
+
             //string[] nameList = {"張三","李四","王五"};
             //foreach (var item in nameList)
             //{
@@ -24,23 +27,23 @@ namespace ConsoleApp_Basic
             //        break;
             //    }
             //}
-            Car car = new Car();
-            car.Move();
+            //Car car = new Car();
+            //car.Move();
         }
     }
     //1203
     //宣告一個介面IMove
-    public interface IMove
-    {
-        void Move();
-    }
-    public class Car : IMove
-    {
-        public void Move()
-        {
-            Console.WriteLine("車子移動10公分");
-        }
-    }
+    //public interface IMove
+    //{
+    //    void Move();
+    //}
+    //public class Car : IMove
+    //{
+    //    public void Move()
+    //    {
+    //        Console.WriteLine("車子移動10公分");
+    //    }
+    //}
 
 
 
