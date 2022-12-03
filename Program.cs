@@ -26,8 +26,27 @@ namespace ConsoleApp_Basic
             //}
         }
     }
-    public class MyProgram
+
+    class data
     {
-        public int num;
+        private int month=0;
+        public int Month
+        {
+            get
+            {
+                return month;
+            }
+            set
+            {
+                if ((value>0) &&(value<13))
+                {
+                    month=value;
+                }
+            }
+        }
     }
+    //public class MyProgram
+    //{
+    //    public int num;
+    //}
 }
